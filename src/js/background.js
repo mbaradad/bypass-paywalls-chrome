@@ -16,6 +16,7 @@ const allowCookies = [
   'denverpost.com',
   'economist.com',
   'ed.nl',
+  'elpais.com',
   'examiner.com.au',
   'ft.com',
   'harpers.org',
@@ -68,6 +69,7 @@ const removeCookies = [
   'demorgen.be',
   'denverpost.com',
   'economist.com',
+  'elpais.com',
   'ed.nl',
   'examiner.com.au',
   'ft.com',
@@ -104,7 +106,8 @@ const removeCookies = [
 const removeCookiesSelectHold = {
   'qz.com': ['gdpr'],
   'washingtonpost.com': ['wp_gdpr'],
-  'wsj.com': ['wsjregion']
+  'wsj.com': ['wsjregion'],
+  'elpais.com': ['hpage'],
 };
 
 // select only specific cookie(s) to drop from removeCookies domains

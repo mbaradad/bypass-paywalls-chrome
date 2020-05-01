@@ -380,11 +380,10 @@ if (matchDomain('cen.acs.org')) {
 
 if (matchDomain('elpais.com')) {
   setTimeout(function () {
-    const paywall = document.querySelector('.fc-ab-root');
-    const body = document.querySelector('.salida_articulo');
-
-    removeDOMElement(paywall);
-    body.removeAttribute('style');
+    const paywallBanner = document.querySelector('#paywallOfferSmall');
+    if (paywallBanner) {
+      removeDOMElement(paywallBanner);
+    }
   }, 500); // Delay (in milliseconds)
 }
 
